@@ -2,7 +2,7 @@ package com.example.todo_mvvm.data
 
 import androidx.room.*
 import kotlinx.coroutines.flow.Flow
-
+// Says how we access the data from the database
 @Dao
 interface TodoDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)

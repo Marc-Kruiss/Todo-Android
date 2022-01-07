@@ -1,6 +1,7 @@
 package com.example.todo_mvvm.data
 import kotlinx.coroutines.flow.Flow
 
+
 interface TodoRepository {
 
     suspend fun insertTodo(todo:Todo)
